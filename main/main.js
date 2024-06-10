@@ -29,7 +29,7 @@ function getValue() {
         window.open('https://i.ibb.co/LkSP1gR/Whats-App-Image-2024-06-06-at-1-05-35-AM.jpg');
     }
     else if(cordValue == 'suicidio'){
-        alert('pensamentos suicidas totais: 10, ultima atualização em 09/06/2024 as 20:41')
+        alert('pensamentos suicidas totais: 12, ultima atualização em 09/06/2024 as 21:52')
     }
     console.log(cidadeValue)
     console.log(paisValue)
