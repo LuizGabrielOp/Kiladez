@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #24313C;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#mobile{
+    background-color: #24313C;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+header{
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin-top: 15px;
+    align-items: center;
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    justify-content: space-around;
+}
+#account{
+    font-size: 35px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 35px;
+}
+#icon-header{
+    font-size: 70px;
+    color: #46A058;
+    margin-left:  15px;
+}
+#dados{
+    width: 100%;
+    font-size: 8px;
+    font-family: "Lexend Zetta", sans-serif;
+    color: #587638;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+hr{
+    width: 95%;
+    height: 2px;
+    background-color: white;
+    border-radius: 20px;
+}
+#nome{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+#email{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+#senha{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+#numero{
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+#preferencias{ 
+    width: 100%;
+    font-size: 8px;
+    font-family: "Lexend Zetta", sans-serif;
+    color: #587638;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#idioma a{
+    font-size: 12px;
+    color: white;
+}
+#notificacao a{
+    font-size: 12px;
+    color: white;
+}
+#pagamento a{
+    font-size: 12px;
+    color: white;
+}
+#preferencias>hr{
+    margin: 0;
+}
+
+#suporte{ 
+    width: 100%;
+    font-size: 8px;
+    font-family: "Lexend Zetta", sans-serif;
+    color: #587638;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 12px;
+}
+#text p{
+    font-size: 12px;
+    color: white;
+}
+#central a{
+    font-size: 12px;
+    color: white;
+}
+#mailsup a{
+    font-size: 12px;
+    color: white;
+}
+#mobile>a>button{
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    background-color: transparent;
+    border-color: white;
+    color: #46A058;
+    font-size: 20px;
+    font-family: "Lexend Zetta", sans-serif;
+}
+#eyes{
+    font-size: 25px;
+}
+#alterne{
+    background-color: #46A058;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Lexend Zetta", sans-serif;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    width: 100px;
+    top: 70px;
+    right: 20px;
+}
+#alterne a{
+    color: white;
+}

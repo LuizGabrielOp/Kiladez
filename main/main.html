@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="../favicon_io/favicon.ico">
+</head>
+<body>
+    <div id="mobile">
+        <header>
+            <button id="header-btns" onclick="advancedSrc()"><i class="ri-search-line" id="icon-header"></i></button>
+            <a href="../perfil/perfil.html"><i class="ri-account-circle-line" id="icon-header"></i></a>
+        </header>
+
+
+        <div id="advanced-src">
+            <form id="advancedSrcForm">
+                <h1>pesquisa avançada</h1>
+                <input type="text" placeholder="País" id="pais">
+                <input type="text" placeholder="Cidade" id="cidade">
+                <div id="form-caixas">
+                    <div id="data">
+                        <label>Data de ida</label>
+                        <input  type="date"
+                        name="ida"
+                        min="2024-06-05"
+                        max="2025-06-05"
+                        id="wife"
+                        />
+                    </div>
+                    <div id="data">
+                        <label>Data de volta</label>
+                        <input  type="date"
+                        name="volta"
+                        min="2024-07-05"
+                        max="2025-06-05"
+                        />
+                    </div>
+                </div>
+                <div id="form-caixas">
+                    <input type="text" placeholder="Valor mínimo" id="cord">
+                    <input type="number" placeholder="Valor máximo">
+                </div>
+            </form>
+            <button id="src-btn" onclick="getValue()">Pesquisar</button>
+        </div>
+
+
+        <main>
+            <div id="paises">
+                <h1>Paises<br>sugeridos</h1>
+                <section class="container">
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <img src="../img/italia.jpg" alt="Roma" id="slide-1" onclick="italia()">
+                            <img src="../img/inglaterra.jpg" alt="Londres" id="slide-2" onclick="inglaterra()">
+                            <img src="../img/brasil.jpg" alt="Rio de Janeiro" id="slide-3" onclick="brasil()">
+                        </div>
+                        <div class="slider-nav">
+                            <a href="#slide-1"></a>
+                            <a href="#slide-2"></a>
+                            <a href="#slide-3"></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
